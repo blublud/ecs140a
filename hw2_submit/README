@@ -1,0 +1,29 @@
+*** This "README" file is parsed by Perl. ***
+*** DO NOT change the format of the first 8 lines of this file ***
+
+Student ID (last 6 digits): 58-2821
+Name(last): Pham
+Name(first): Phuong
+Login_ID: pdphuong
+
+Status:Finished
+
+part1: Works on all tests.
+part2: Works on all tests.
+part3: Works on all tests.
+part4: Works on all tests.
+part5: Works on all tests.
+
+Overall: Any comment/discussion related to this HW.
+
+Since part 5 is the super set of all parts. Comments about functions, variables can be found in source code of part 5.
+
+Modified BNF for part5:
+The rule for statement is modified as:
+statement ::= assignment | print | do | if | for
+One rule for 'for' is added
+for ::= '{' expr '$' expr '$' expr '$' block '}'
+Description: 
+1st expr: set the initial value for the iterator
+2nd expr: the stopping condition, for loop terminates when iterator's value equals to this condition
+3rd expr: the step value of the iterator, after one round, the iterator is added the value as specified. 

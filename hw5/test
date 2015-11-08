@@ -1,0 +1,8 @@
+GNU Prolog 1.4.4 (32 bits)
+Compiled Sep 25 2014, 13:34:34 with gcc
+By Daniel Diaz
+Copyright (C) 1999-2013 Daniel Diaz
+uncaught exception: error(existence_error(procedure,a/0),top_level/0)
+
+yes
+

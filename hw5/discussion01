@@ -1,0 +1,82 @@
+]0;pdphuong@pc8:hw5[pdphuong@pc8 hw5]$ gprolog
+GNU Prolog 1.4.4 (32 bits)
+Compiled Sep 25 2014, 13:34:34 with gcc
+By Daniel Diaz
+Copyright (C) 1999-2013 Daniel Diaz
+compiling user for byte code...
+user:1: warning: singleton variables [X] for a/1
+user compiled, 2 lines read - 219 bytes written, 17881 ms
+
+(1 ms) yes
+uncaught exception: error(existence_error(procedure,c/0),a/1)
+compiling user for byte code...
+user:1: warning: singleton variables [X] for a/1
+user:1: fatal error: body goal is not callable (1)
+compilation failed
+
+(1 ms) no
+compiling user for byte code...
+user:1: warning: singleton variables [X] for a/1
+user compiled, 3 lines read - 293 bytes written, 22081 ms
+
+(1 ms) yes
+
+yes
+
+yes
+The debugger will first creep -- showing everything (trace)
+
+yes
+{trace}
+      1    1  Call: a(_23) ? 
+      2    2  Call: b(1) ? 
+      2    2  Exit: b(1) ? 
+      1    1  Exit: a(_23) ? 
+
+yes
+{trace}
+      1    1  Call: hardwork(_23):-student(_23,_26),length(_26)>3 ? 
+      1    1  Exception: hardwork(_23):-student(_23,_26),length(_26)>3 ? 
+uncaught exception: error(existence_error(procedure,(:-)/2),top_level/0)
+{trace}
+      1    1  Call: [facts] ? 
+Prolog interruption (h for help) ? 
+{Break Level 1}
+{trace,1}
+The debugger is switched off
+
+yes
+{1}
+uncaught exception: error(existence_error(procedure,(:-)/2),top_level/0)
+{1}
+compiling /home/pdphuong/pl/hw5/facts.pl for byte code...
+/home/pdphuong/pl/hw5/facts.pl compiled, 57 lines read - 11943 bytes written, 13 ms
+
+(5 ms) yes
+{1}
+uncaught exception: error(existence_error(procedure,(:-)/2),top_level/0)
+{1}
+uncaught exception: error(syntax_error('user_input:21 (char:1) expression expected'),read_term/3)
+{1}
+uncaught exception: error(existence_error(procedure,(:-)/2),top_level/0)
+{1}
+uncaught exception: error(existence_error(procedure,(:-)/2),top_level/0)
+{1}
+Already in a Ctrl+C handler - ignored
+
+{End Break}
+
+Prolog interruption (h for help) ? 
+   a  abort        b  break
+   c  continue     e  exit
+   d  debug        t  trace
+  h/? help
+
+Prolog interruption (h for help) ? 
+   a  abort        b  break
+   c  continue     e  exit
+   d  debug        t  trace
+  h/? help
+
+Prolog interruption (h for help) ? 
+]0;pdphuong@pc8:hw5[pdphuong@pc8 hw5]$ ^Dexit
